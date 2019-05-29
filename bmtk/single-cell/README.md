@@ -5,7 +5,7 @@
 
 ## Instructions
 
-<mark>This document assumes you have completed the necessary steps in [Installing BMTK](/bmtk/installation/)</mark>
+<mark>This document assumes you have completed the necessary steps in </mark>[Installing BMTK](/bmtk/installation/)
 
 ## Setup
 
