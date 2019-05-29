@@ -45,16 +45,16 @@ To do so, run <mark>mknrndll</mark> in the (```\biophys_components\mechanisms\mo
 
 ## HOC Build
 
-1. HOC template files can be used by BMTK. For this example, we'll take a single HCO cell and run it with no input, in BMTK.
+1.) HOC template files can be used by BMTK. For this example, we'll take a single HCO cell and run it with no input, in BMTK.
 
-2. Download the HCO files from [https://github.com/tjbanks/two-cell-hco/archive/master.zip](https://github.com/tjbanks/two-cell-hco/archive/master.zip) 
+2.) Download the HCO files from [https://github.com/tjbanks/two-cell-hco/archive/master.zip](https://github.com/tjbanks/two-cell-hco/archive/master.zip) 
 
-3. Extract the files in the zip directory and copy all .mod files into (```.\biophys_components\mechanisms\modfiles\```)
+3.) Extract the files in the zip directory and copy all .mod files into (```.\biophys_components\mechanisms\modfiles\```)
 
-4. Run nrnmkdll in 
+4.) Run nrnmkdll in 
 (```.\biophys_components\mechanisms\modfiles\```)
 
-5. Next, tell BMTK where to find your template files. <mark>In the root of your model directory</mark>, edit **<mark>circuit_config.json</mark>**. Add the ```templates_dir``` key under components. Your file should look similar to the following: 
+5.) Next, tell BMTK where to find your template files. <mark>In the root of your model directory</mark>, edit **<mark>circuit_config.json</mark>**. Add the ```templates_dir``` key under components. Your file should look similar to the following: 
 
 circuit_config.json
 ---------
@@ -81,9 +81,9 @@ circuit_config.json
 }
 ```
 
-6. <mark>Create a </mark>**<mark>hoc_templates</mark>**<mark> directory</mark> under ```./biophys_components```
+6.) <mark>Create a </mark>**<mark>hoc_templates</mark>**<mark> directory</mark> under ```./biophys_components```
 
-7. <mark>Create a new file named </mark>**<mark>HCOCell.hoc</mark>**<mark> in your new hoc_templates directory</mark> and paste the following code into that file:
+7.) <mark>Create a new file named </mark>**<mark>HCOCell.hoc</mark>**<mark> in your new hoc_templates directory</mark> and paste the following code into that file:
 
 HCOCell.hoc
 --------
@@ -166,7 +166,7 @@ endtemplate HCOcell
 ```
 
 
-8. Things to note about this file:
+8.) Things to note about this file:
 
 a. There are public section references used by bmtk:
 * Line 11: ```public all, somatic, basal, apical, axonal```
@@ -182,9 +182,9 @@ for i=0,NumSoma soma[i] { all.append()
 
 c.	This can be any hoc file that specifies a template. This will be where a good majority of your model customization will be.
 
-d.	**<mark>Line 75: ```define_shape()``` must be called</mark>** if you don’t define a 3d morphology in the hoc otherwise. BMTK relies heavily on 3d locations.
+d.	**Line 75: ```define_shape()``` must be called** if you don’t define a 3d morphology in the hoc otherwise. BMTK relies heavily on 3d locations.
 
-9. Something <u>important</u> which may be a limitation of BMTK: the morphology file is ALWAYS required. For any hoc file loaded you must specify an swc, however, it can be a blank file, as it will be **ignored**. <mark>Create the ```blank.swc``` file</mark> in ```.\biophys_components\morphologies``` and leave this file blank.
+9.) Something <u>important</u> which may be a limitation of BMTK: the morphology file is ALWAYS required. For any hoc file loaded you must specify an swc, however, it can be a blank file, as it will be **ignored**. <mark>Create the ```blank.swc``` file</mark> in ```.\biophys_components\morphologies``` and leave this file blank.
 
 blank.swc
 --------
@@ -192,7 +192,7 @@ blank.swc
 ```
 ```
 
-10. Next, you’ll need to create a cell builder script to tell BMTK the type of cells you want to use. <mark>Create the file </mark>**<mark>build_network.py </mark>**<mark>in the root of your directory and add the following code:</mark>
+10.) Next, you’ll need to create a cell builder script to tell BMTK the type of cells you want to use. <mark>Create the file </mark>**<mark>build_network.py </mark>**<mark>in the root of your directory and add the following code:</mark>
 
 build_network.py
 --------
@@ -213,7 +213,7 @@ net.save_nodes(output_dir='network')
 
 ```
 
-11. Now you should be ready to build your network. <mark>In your Anaconda Prompt</mark>, in the root of your directory <mark>execute the following command</mark> to build your network:
+11.) Now you should be ready to build your network. <mark>In your Anaconda Prompt</mark>, in the root of your directory <mark>execute the following command</mark> to build your network:
 
 ```
 python build_network.py
@@ -222,7 +222,7 @@ python build_network.py
 A successful run may not have any output.
 
 
-12. Before running your simulation <u>you will need to tell BMTK which generated network files are to be used in your simulation</u>. <mark>ANY time you change your network configuration (networks, edges, etc) this will need to be updated</mark>. These files were generated in the previous step and exist in the network directory. <mark>Edit </mark>**,<mark>circuit_config.json</mark>**. Add the appropriate "```networks```" key values that correspond to the files generated in the network directory. Your file should look like the following:
+12.) Before running your simulation <u>you will need to tell BMTK which generated network files are to be used in your simulation</u>. <mark>ANY time you change your network configuration (networks, edges, etc) this will need to be updated</mark>. These files were generated in the previous step and exist in the network directory. <mark>Edit </mark>**,<mark>circuit_config.json</mark>**. Add the appropriate "```networks```" key values that correspond to the files generated in the network directory. Your file should look like the following:
 
 circuit_config.json
 --------
@@ -256,7 +256,7 @@ circuit_config.json
 ```
 
 
-13. An <mark>important step</mark> needed for the network to run correctly: BMTK will need to have its default hoc loader overridden. You do this by editing your **<mark>```run_bionet.py```</mark>** file to add the following code:
+13.) An <mark>important step</mark> needed for the network to run correctly: BMTK will need to have its default hoc loader overridden. You do this by editing your **<mark>```run_bionet.py```</mark>** file to add the following code:
 
 ```python
 from bmtk.simulator.bionet.default_setters.cell_models import loadHOC
@@ -288,7 +288,7 @@ def run(config_file):
 
 ```
 
-14. Finally, <mark>run the simulation by executing the following in your Anaconda prompt, in the root of your project directory:</mark>
+14.) Finally, <mark>run the simulation by executing the following in your Anaconda prompt, in the root of your project directory:</mark>
 
 ```
 python run_bionet.py simulation_config.json
@@ -318,11 +318,11 @@ C:\Users\Tyler\Anaconda3\envs\clean\lib\site-packages\bmtk-0.0.7-py3.7.egg\bmtk\
 2018-12-30 20:23:50,357 [INFO] Simulation completed in 18.55 seconds
 ```
 
-15. If you receive "PermissionError: [WinError 5] Access is denied:'./output'" just run the network again by repeating the previous step.
+15.) If you receive "PermissionError: [WinError 5] Access is denied:'./output'" just run the network again by repeating the previous step.
 
-16. At this point your network should have ran. From here we can customize the output and view results. 
+16.) At this point your network should have ran. From here we can customize the output and view results. 
 
-17. Edit the **reports** section of the **```simulation_config.json```** file in the root of your model directory to look like:
+17.) Edit the **reports** section of the **```simulation_config.json```** file in the root of your model directory to look like:
 
 simulation_config.json
 --------
@@ -346,10 +346,10 @@ simulation_config.json
 ...
 ```
 
-18. This will instruct BMTK to log the calcium and voltage levels for your cell.
+18.) This will instruct BMTK to log the calcium and voltage levels for your cell.
 Run your network again, as we did previously, with (```python run_bionet.py simulation_config.json```)
 
-19. <mark>Create a new file named </mark>**<mark>```plot_test.py```</mark>** in the root of your directory and paste the following code into it:
+19.) <mark>Create a new file named </mark>**<mark>```plot_test.py```</mark>** in the root of your directory and paste the following code into it:
 
 plot_test.py
 --------
@@ -362,7 +362,7 @@ plot_report(config_file='simulation_config.json')
  
 ```
 
-20. Executing this file with (```python plot_test.py```) will return a plot like the following:
+20.) Executing this file with (```python plot_test.py```) will return a plot like the following:
 
 ![](plot.png)
 
