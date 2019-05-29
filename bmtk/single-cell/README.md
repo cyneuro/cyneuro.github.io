@@ -58,6 +58,7 @@ To do so, run <mark>mknrndll</mark> in the (```\biophys_components\mechanisms\mo
 
 circuit_config.json
 ---------
+
 ```json
 {
   "manifest": {
@@ -86,6 +87,7 @@ circuit_config.json
 
 HCOCell.hoc
 --------
+
 ```c
 begintemplate HCOcell
 
@@ -186,6 +188,7 @@ d.	**<mark>Line 75: ```define_shape()``` must be called</mark>** if you don’t 
 
 blank.swc
 --------
+
 ```
 ```
 
@@ -193,6 +196,7 @@ blank.swc
 
 build_network.py
 --------
+
 ```python
 
 from bmtk.builder.networks import NetworkBuilder
@@ -222,6 +226,7 @@ A successful run may not have any output.
 
 circuit_config.json
 --------
+
 ```json
 
 {
@@ -263,6 +268,7 @@ The resulting file should look similar to the following:
 
 run_bionet.py
 --------
+
 ```python
 # -*- coding: utf-8 -*-
 
@@ -320,6 +326,7 @@ C:\Users\Tyler\Anaconda3\envs\clean\lib\site-packages\bmtk-0.0.7-py3.7.egg\bmtk\
 
 simulation_config.json
 --------
+
 ```json
 ...
 
@@ -346,6 +353,7 @@ Run your network again, as we did previously, with (```python run_bionet.py simu
 
 plot_test.py
 --------
+
 ```python
 
 from bmtk.analyzer.cell_vars import plot_report
