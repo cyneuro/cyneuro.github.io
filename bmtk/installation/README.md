@@ -26,6 +26,7 @@ The latest release, previous releases, and current development can be found at:
 1.	You must have Anaconda3 and Neuron installed correctly for BMTK to work. Details at the end of this document.
 2.	You must also install a git client to get the latest BMTK code. Download and install Git for Windows at [https://git-scm.com/download/win](https://git-scm.com/download/win) and install with all the default settings.
 3.	From the '**<mark>Git Bash</mark>**' prompt installed earlier execute the following commands:
+
 ![](git.png)
 
 ```
