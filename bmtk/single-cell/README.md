@@ -184,7 +184,7 @@ c.	This can be any hoc file that specifies a template. This will be where a good
 
 d.	**Line 75: ```define_shape()``` must be called** if you don’t define a 3d morphology in the hoc otherwise. BMTK relies heavily on 3d locations.
 
-9.) Something <u>important</u> which may be a limitation of BMTK: the morphology file is ALWAYS required. For any hoc file loaded you must specify an swc, however, it can be a blank file, as it will be **ignored**. <mark>Create the ```blank.swc``` file</mark> in ```.\biophys_components\morphologies``` and leave this file blank.
+9.) Something <u>important</u> which may be a limitation of BMTK: the morphology file is ALWAYS required. For any hoc file loaded you must specify an swc, however, it can be a blank file, as it will be **ignored**. Create the ```blank.swc``` file in ```.\biophys_components\morphologies``` and leave this file blank.
 
 blank.swc
 --------
@@ -256,7 +256,7 @@ circuit_config.json
 ```
 
 
-13.) An <mark>important step</mark> needed for the network to run correctly: BMTK will need to have its default hoc loader overridden. You do this by editing your **<mark>```run_bionet.py```</mark>** file to add the following code:
+13.) An <mark>important step</mark> needed for the network to run correctly: BMTK will need to have its default hoc loader overridden. You do this by editing your **```run_bionet.py```** file to add the following code:
 
 ```python
 from bmtk.simulator.bionet.default_setters.cell_models import loadHOC
@@ -349,7 +349,7 @@ simulation_config.json
 18.) This will instruct BMTK to log the calcium and voltage levels for your cell.
 Run your network again, as we did previously, with (```python run_bionet.py simulation_config.json```)
 
-19.) <mark>Create a new file named </mark>**<mark>```plot_test.py```</mark>** in the root of your directory and paste the following code into it:
+19.) <mark>Create a new file</mark> named **```plot_test.py```** in the root of your directory and paste the following code into it:
 
 plot_test.py
 --------
