@@ -7,6 +7,8 @@
 
 <mark>This document assumes you have completed the necessary steps in </mark>[Installing BMTK](/bmtk/installation/)
 
+A completed model based on these instructions can be downloaded [here](my_bmtk_model.zip). 
+
 ## Setup
 
 1. Now that BTMK is installed, visit the directory you want to **build** your model in and run BMTK’s directory setup. The network directory is where the node/edge configuration files will sit. For example, the following will change directory to your desktop, create a project directory (bmtk_model), create a network directory for btmk to use, and initialize the directory for your further customization. **<mark>This step will only be run once!</mark>**
