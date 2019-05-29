@@ -84,7 +84,7 @@ To do so, run <mark>mknrndll</mark> in the (```\biophys_components\mechanisms\mo
 7. <mark>Create a new file named </mark>**<mark>HCOCell.hoc</mark>**<mark> in your new hoc_templates directory</mark> and paste the following code into that file:
 
 ```HCOCell.hoc```
-```c
+
 begintemplate HCOcell
 
     public NumSoma
