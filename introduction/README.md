@@ -1,6 +1,6 @@
 # Introduction
 
-*This jupyter notebook is part of a [collection of notebooks](https://cyneuro.github.io/) on various topics of Computational Neuroscience. Please direct questions and suggestions to tbanks@mail.missouri.edu.*
+*This page is part of a [collection of pages](https://cyneuro.github.io/) on various topics of Computational Neuroscience. Please direct questions and suggestions to [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*
 
 ## Computational Neuroscience
 
