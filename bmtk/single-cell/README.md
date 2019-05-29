@@ -367,4 +367,4 @@ plot_report(config_file='simulation_config.json')
 ![](plot.png)
 
 ## Additional Resources
-For additional resources and instructions on configuring BMTK see: https://github.com/AllenInstitute/bmtk/blob/develop/docs/tutorial/Simulation_Intro.ipynb
+For additional resources and instructions on configuring BMTK see: [https://github.com/AllenInstitute/bmtk/blob/develop/docs/tutorial/Simulation_Intro.ipynb](https://github.com/AllenInstitute/bmtk/blob/develop/docs/tutorial/Simulation_Intro.ipynb)
