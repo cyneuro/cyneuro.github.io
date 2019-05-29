@@ -57,6 +57,7 @@ To do so, run <mark>mknrndll</mark> in the (```\biophys_components\mechanisms\mo
 5. Next, tell BMTK where to find your template files. <mark>In the root of your model directory</mark>, edit **<mark>circuit_config.json</mark>**. Add the ```templates_dir``` key under components. Your file should look similar to the following: 
 
 ```circuit_config.json```
+
 ```json
 {
   "manifest": {
@@ -184,6 +185,7 @@ d.	**<mark>Line 75: ```define_shape()``` must be called</mark>** if you don’t 
 9. Something <u>important</u> which may be a limitation of BMTK: the morphology file is ALWAYS required. For any hoc file loaded you must specify an swc, however, it can be a blank file, as it will be **ignored**. <mark>Create the ```blank.swc``` file</mark> in ```.\biophys_components\morphologies``` and leave this file blank.
 
 ```blank.swc```
+
 ```
 ```
 
@@ -219,6 +221,7 @@ A successful run may not have any output.
 12. Before running your simulation <u>you will need to tell BMTK which generated network files are to be used in your simulation</u>. <mark>ANY time you change your network configuration (networks, edges, etc) this will need to be updated</mark>. These files were generated in the previous step and exist in the network directory. <mark>Edit </mark>**,<mark>circuit_config.json</mark>**. Add the appropriate "```networks```" key values that correspond to the files generated in the network directory. Your file should look like the following:
 
 ```circuit_config.json```
+
 ```json
 
 {
@@ -259,6 +262,7 @@ bionet.pyfunction_cache.add_cell_model(loadHOC, directive='hoc', model_type='bio
 The resulting file should look similar to the following:
 
 ```run_bionet.py```
+
 ```python
 # -*- coding: utf-8 -*-
 
@@ -315,6 +319,7 @@ C:\Users\Tyler\Anaconda3\envs\clean\lib\site-packages\bmtk-0.0.7-py3.7.egg\bmtk\
 17. Edit the **reports** section of the **```simulation_config.json```** file in the root of your model directory to look like:
 
 ```simulation_config.json```
+
 ```json
 ...
 
