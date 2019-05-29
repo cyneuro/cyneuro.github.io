@@ -85,6 +85,7 @@ To do so, run <mark>mknrndll</mark> in the (```\biophys_components\mechanisms\mo
 
 ```HCOCell.hoc```
 
+```c
 begintemplate HCOcell
 
     public NumSoma
