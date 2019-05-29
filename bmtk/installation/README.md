@@ -41,6 +41,7 @@ git clone https://github.com/AllenInstitute/bmtk
 
 
 4. Next, run **setup** and **install** from the **<mark>Anaconda Prompt</mark>** (We will also ensure that **old versions of BMTK are removed too**)
+
 ![](anacondaprompt.png)
 
 ```
