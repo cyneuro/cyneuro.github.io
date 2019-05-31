@@ -1,3 +1,5 @@
+![](/images/cyneurologo2.png)
+
 # CyNeuro - Research
 
 ## Table of Contents
