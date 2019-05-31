@@ -1,6 +1,8 @@
+![](/images/cyneurologo2.png)
+
 # CyNeuro - Outreach
 
-Program support reesource page.
+Program support resource page.
 
 ## Table of Contents
 
