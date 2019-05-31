@@ -1,3 +1,5 @@
+![](/images/cyneurologo2.png)
+
 # CyNeuro - Teaching
 
 Find training content for learning or teaching computational neuroscience here.
