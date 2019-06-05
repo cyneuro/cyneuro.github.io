@@ -15,4 +15,4 @@ Find training content for learning or teaching computational neuroscience here.
 
 #### 3. Advanced Python
 
-* [Writing Effective Python]()
+* [Writing Effective Python](effective-python)
