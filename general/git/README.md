@@ -35,7 +35,7 @@ In order to interface with github effectively you'll need a git client. From the
 3. Follow all on-screen instructions, the default options are usually the best.
 4. You're all set! There should have "Git Bash" available in your start menu.
 
-![](gitbash.png)
+![](gitbash.PNG)
 
 #### Linux
 
