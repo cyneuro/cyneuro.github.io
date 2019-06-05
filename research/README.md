@@ -4,6 +4,10 @@
 
 ## Table of Contents
 
+#### 0. Tools
+* [NeuroVM](tools/neurovm) - A pre-built virtual machine for neuro research
+* [SimAgent](tools/simagent) - Easily submit NEURON simulations to supercomputers like NSG
+
 #### 1. Introduction 
 
 * [Introduction](/research/introduction)
