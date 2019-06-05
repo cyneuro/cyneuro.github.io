@@ -16,7 +16,7 @@
 #### 2. Neuroscience
 
 * Basics
-* [Hodgkin-Huxley-ODEs](https://nbviewer.jupyter.org/github/cyneuro/cyneuro.github.io/blob/master/research/neuroscience/hh/Hodgkin-Huxley-ODEs.ipynb) (static Jupyter notebook) ([interactive version]())
+
 
 #### 3. NEURON
 
