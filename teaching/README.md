@@ -18,6 +18,12 @@ Find training content for learning or teaching computational neuroscience here.
 #### 3. Advanced Python
 
 * [Writing Effective Python](effective-python)
+  * [Pythonic Thinking](https://nbviewer.jupyter.org/github/tjbanks/python-datasci/blob/master/Effective%20Python/Ch1-Pythonic-Thinking.ipynb)
+  * [Functions](https://nbviewer.jupyter.org/github/tjbanks/python-datasci/blob/master/Effective%20Python/Ch2-Functions.ipynb)
+  * [Classes and Inheritance](https://nbviewer.jupyter.org/github/tjbanks/python-datasci/blob/master/Effective%20Python/Ch3-Classes-and-Inheritance.ipynb)
+  * [Metaclasses and Attributes](https://nbviewer.jupyter.org/github/tjbanks/python-datasci/blob/master/Effective%20Python/Ch4-Metaclasses-and-Attributes.ipynb)
+  * [Collaboration](https://nbviewer.jupyter.org/github/tjbanks/python-datasci/blob/master/Effective%20Python/Ch7-Collaboration.ipynb)
+  * [Unit Testing](https://nbviewer.jupyter.org/github/tjbanks/python-datasci/blob/master/Effective%20Python/Ch8-Production.ipynb)
 
 #### 4. Math
 
@@ -32,4 +38,4 @@ Find training content for learning or teaching computational neuroscience here.
   * Example Notebook [[notebook viewer](https://nbviewer.jupyter.org/github/chenziao/Computational-Neuroscience-Tutorials/blob/master/ActionPotentialTutorial/ActionPotential_HHCell.ipynb)]
 
 * Short-Term Synaptic Plasticity
-  * BMTK Example [[Repository](https://github.com/tjbanks/synaptic_plasticity)]
+  * BMTK Example [[repository](https://github.com/tjbanks/synaptic_plasticity)]
