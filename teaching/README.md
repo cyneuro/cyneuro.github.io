@@ -6,8 +6,13 @@ Find training content for learning or teaching computational neuroscience here.
 
 ## Table of Contents
 
-**1. Introduction** 
+#### 1. Introduction
 
 * [Introduction](/research/introduction)
 * Teaching Resources
 
+#### 2. Python
+
+#### 3. Advanced Python
+
+* [Writing Effective Python]()

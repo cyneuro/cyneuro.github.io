@@ -1,6 +1,6 @@
 # Installing the Allen Institute Brain Modeling Toolkit (BMTK)
 
-*This page is part of a [collection of pages](https://cyneuro.github.io/) on various topics of Computational Neuroscience. Please direct questions and suggestions to [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*
+*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*
 
 
 ## About BMTK
@@ -40,7 +40,7 @@ git clone https://github.com/AllenInstitute/bmtk
 
 
 
-4. Next, run **setup** and **install** from the **<mark>Anaconda Prompt</mark>** (We will also ensure that **old versions of BMTK are removed too**)
+1. Next, run **setup** and **install** from the **<mark>Anaconda Prompt</mark>** (We will also ensure that **old versions of BMTK are removed too**)
 
 ![](anacondaprompt.png)
 
