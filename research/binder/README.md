@@ -8,11 +8,9 @@ Binder allows you to create custom computing environments that can be shared and
 
 ## Pre-Built Environments
 
-Use the following links to visit blank binder environments for testing any code.
+### BMTK/Neuron Environment 
 
-## Neuron Environment
-
-Click here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tjbanks/neuronline/master?filepath=home.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tjbanks/neuronline/master?filepath=home.ipynb)
 
 Installed software:
 * numpy 
