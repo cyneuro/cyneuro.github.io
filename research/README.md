@@ -28,7 +28,7 @@
 
 #### 5. Binder
 
-* [Using Binder](/research/binder)
+* [Using Binder](/research/binder/)
 
 #### 6. Single Cell
 
