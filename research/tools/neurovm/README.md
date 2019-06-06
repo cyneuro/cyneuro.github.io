@@ -1,6 +1,7 @@
 # Computational Neuroscience Virtual Machine
 
-*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*
+[**Home**](/) > [**Research**](/research) > **Tools** > [**CompNeuroVm**](./)
+
 
 ![](neurovm.png)
 
@@ -27,14 +28,33 @@ Install directions also available in PDF format [here](https://tylerbanks.net/as
 1. Download and install VirtualBox: (Windows, Mac OS and Linux installers available) [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 2. Download the CompNeuro Virtual Appliance provided by the Mizzou Neural Engineering Lab: [[DOWNLOAD]](https://drive.google.com/uc?export=download&confirm=j7WJ&id=11wacrg9pt5IyQVoNndgu9o6Da1yXcZPQ) 
 3. This file is 8.5GB and will take some time to download. The file may also be available via USB.
-4. Import the appliance in VirtualBox
+4. <mark>Import the appliance in VirtualBox</mark>
 ![](1.png)
-4. Select the downloaded NeuroVM ova file.
+5. <mark>Select the downloaded NeuroVM ova file.</mark>
 ![](2.png)
-5. Change settings if needed (increase memory, etc.). This process may take several minutes.
+6. <mark>Change settings if needed (increase memory, etc.). This process may take several minutes.</mark>
 ![](3.png)
-6. Start the VM and you’re ready to go!
+7. <mark>Start the VM and you’re ready to go!</mark>
 ![](4.png)
+
+## Troubleshooting
+
+### Error -1908
+![](1908.png)
+
+#### To fix this error:
+* Visit https://medium.com/@Aenon/mac-virtualbox-kernel-driver-error-df39e7e10cd8
+* If the error persists, uninstall virtualbox, reinstall, and follow the steps again
+
+
+### NS_ERROR_INVALID_ARG (0x80070057)
+
+![](invalid_arg.png)
+
+#### To fix this error:
+* Ensure that you have 30GB of free disk space
+* Delete the folder
+
 ## Reference Material
 
 #### Usage
@@ -76,3 +96,7 @@ python your_program.py
 ## References
 
 * [https://tylerbanks.net](https://tylerbanks.net)
+
+
+---
+*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*
