@@ -1,7 +1,8 @@
 # Networked HOC in BMTK
 
-*This page is part of a [collection of pages](https://cyneuro.github.io/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*
+[**Home**](/) > [**Research**](/research) > [**BMTK**](/research/bmtk) > [**Networked HOC in BMTK**](./)
 
+---
 
 ## Instructions
 
@@ -254,6 +255,9 @@ A successful run will output the following:
 
 If you receive “PermissionError: [WinError 5] Access is denied: './output'” just run the network again.
 
-11. Run ```python test_plot.py``` to view your new results.
+1.  Run ```python test_plot.py``` to view your new results.
 
 ![](output.png)
+
+---
+*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*

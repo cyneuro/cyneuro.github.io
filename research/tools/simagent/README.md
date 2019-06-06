@@ -1,6 +1,9 @@
 # SimAgent
 
-*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*
+
+[**Home**](/) > [**Research**](/research) >  [**SimAgent**](./)
+
+---
 
 ![](simagent.png)
 
@@ -19,3 +22,6 @@
 Also hosted on [CyNeuro.org](http://cyneuro.org/system/analytics/training_content).
 
 **Support** forum hosted on the NEURON site: [here](https://www.neuron.yale.edu/phpBB/viewforum.php?f=47)
+
+---
+*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*

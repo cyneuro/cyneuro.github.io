@@ -1,5 +1,8 @@
 # Git - A distributed version-control system
 
+[**Home**](/) > **General** > [**Git**](./)
+
+---
 Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows. [Wikipedia](https://en.wikipedia.org/wiki/Git)
 
 ## Contents
@@ -151,3 +154,7 @@ git reset --hard
 * [https://help.github.com/en/articles/create-a-repo](https://help.github.com/en/articles/create-a-repo)
 * [https://git-scm.com/](https://git-scm.com/)
 * [https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line](https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line)
+
+
+---
+*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*

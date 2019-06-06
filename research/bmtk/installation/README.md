@@ -1,7 +1,8 @@
 # Installing the Allen Institute Brain Modeling Toolkit (BMTK)
 
-*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*
+[**Home**](/) > [**Research**](/research) > [**BMTK**](/research/bmtk) > [**Installing**](./)
 
+---
 
 ## About BMTK
 
@@ -65,3 +66,6 @@ rd /s /q C:\Users\<your_username>\Desktop\temp_bmtk_install
 * API (Application Programming Interface) is a protocol intended to be used as an interface by software components to communicate with each other. It is basically a set of programming instructions and standards for accessing web-based applications or web tools.
 * JSON (Java Script Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on the Java programming language, Standard ECMA-262 3rd edition, Dec 1999
 * See document "Additional_BMTK_info" for additional information
+
+---
+*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*

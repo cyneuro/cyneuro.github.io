@@ -1,7 +1,8 @@
 # Writing Effective Python
 
-*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*
+[**Home**](/) > [**Teaching**](/teaching) >  [**Effective Python**](./)
 
+---
 ## Information
 
 A series of Jupyter notebooks summarizing many chapters from "*Effective Python - 59 Specific Ways to Write Better Python.*"
@@ -22,3 +23,6 @@ While not all chapters of the book have been covered, the full book can be purch
 ## References
 
 *Effective Python*
+
+---
+*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*

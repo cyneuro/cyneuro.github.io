@@ -1,11 +1,12 @@
 # Single Cell HOC in BMTK
 
-*This page is part of a [collection of pages](https://cyneuro.github.io/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*
+[**Home**](/) > [**Research**](/research) > [**BMTK**](/research/bmtk) > [**Single Cell HOC**](./)
 
+---
 
 ## Instructions
 
-<mark>This document assumes you have completed the necessary steps in </mark>[Installing BMTK](/bmtk/installation/)
+<mark>This document assumes you have completed the necessary steps in </mark>[Installing BMTK](/research/bmtk/installation/)
 
 A completed model based on these instructions can be downloaded [here](my_bmtk_model.zip). 
 
@@ -370,3 +371,6 @@ plot_report(config_file='simulation_config.json')
 
 ## Additional Resources
 For additional resources and instructions on configuring BMTK see: [https://github.com/AllenInstitute/bmtk/blob/develop/docs/tutorial/Simulation_Intro.ipynb](https://github.com/AllenInstitute/bmtk/blob/develop/docs/tutorial/Simulation_Intro.ipynb)
+
+---
+*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*

@@ -2,6 +2,11 @@
 
 # CyNeuro - Teaching
 
+
+[**Home**](/) > [**Teaching**](./)
+
+---
+
 Find training content for learning or teaching computational neuroscience here.
 
 ## Table of Contents
@@ -39,3 +44,7 @@ Find training content for learning or teaching computational neuroscience here.
 
 * Short-Term Synaptic Plasticity
   * BMTK Example [[repository](https://github.com/tjbanks/synaptic_plasticity)]
+
+
+---
+*This page is part of a [collection of pages](/) on various topics of Computational Neuroscience. Please direct questions and suggestions to the author [Tyler Banks](https://tylerbanks.net) at [tbanks@mail.missouri.edu](mailto:tbanks@mail.missouri.edu).*
