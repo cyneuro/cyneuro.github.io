@@ -10,6 +10,8 @@
 
 Download a pre-built virtual appliace with all the tools you need to conduct large scale computational neuroscience simulation.
 
+**<mark>30 GB OF FREE DISK SPACE IS REQUIRED BEFORE INSTALLATION</mark>**
+
 #### Software provided:
 * Neuron 7.5 (with IV and MPI) - [​https://www.neuron.yale.edu/neuron/](​https://www.neuron.yale.edu/neuron/)
 * Anaconda 3 - ​[https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/)
