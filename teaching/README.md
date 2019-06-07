@@ -17,8 +17,9 @@ Find training content for learning or teaching computational neuroscience here.
 * Teaching Resources
 
 #### 2. Python
-
+* [LearnPython.org](https://www.learnpython.org/)
 * [Python Tutorial](https://docs.python.org/3/tutorial/)
+* [Python Fiddle](http://pythonfiddle.com/) - An online Python programming environment
 
 #### 3. Advanced Python
 
