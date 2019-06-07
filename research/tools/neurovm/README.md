@@ -56,7 +56,9 @@ Install directions also available in PDF format [here](https://tylerbanks.net/as
 
 #### To fix this error:
 * Ensure that you have 30GB of free disk space
-* Delete the folder containing your virtual machine import (usually /Users/<your username>/VirtualBox VMs/NeuroVM or C:\Users\<your username>\VirtualBox VMs\NeuroVM)
+* Delete the folder containing your virtual machine import. Usually:
+    * /Users/[your username]/VirtualBox VMs/NeuroVM <mark>OR</mark>
+    * C:\Users\[your username]\VirtualBox VMs\NeuroVM
 * Attempt to re-import
 
 ## Reference Material
