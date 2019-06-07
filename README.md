@@ -18,7 +18,7 @@
 <tr>
 <td style="text-align: center;">Undergraduate and Graduate Course Materials</td>
 <td style="text-align: center;">Tools for Computational Neuroscience Research</td>
-<td style="text-align: center;">K-12 Content, RET, REU, and Media</td>
+<td style="text-align: center;">K-12 Content, RET, and Media</td>
 </tr>
 </tbody>
 </table>
