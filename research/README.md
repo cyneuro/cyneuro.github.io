@@ -20,10 +20,12 @@
 
 * Basics
 
-
 #### 3. NEURON
 
 * Installation
+* MOD Files
+    * [Channels, Pumps, Diffusion](https://neuron.yale.edu/ftp/ted/book/revisions/chap9indexedref.pdf)
+    * [Artificial Spiking Cells](https://neuron.yale.edu/ftp/ted/book/revisions/chap10indexedref.pdf)
 
 #### 4. [BMTK Tutorials](/research/bmtk)
 
