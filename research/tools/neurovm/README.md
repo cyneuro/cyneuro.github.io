@@ -46,7 +46,7 @@ Install directions also available in PDF format [here](https://tylerbanks.net/as
 ![](1908.png)
 
 #### To fix this error:
-* Visit https://medium.com/@Aenon/mac-virtualbox-kernel-driver-error-df39e7e10cd8
+* Visit [https://medium.com/@Aenon/mac-virtualbox-kernel-driver-error-df39e7e10cd8](https://medium.com/@Aenon/mac-virtualbox-kernel-driver-error-df39e7e10cd8)
 * If the error persists, uninstall virtualbox, reinstall, and follow the steps again
 
 
@@ -56,7 +56,8 @@ Install directions also available in PDF format [here](https://tylerbanks.net/as
 
 #### To fix this error:
 * Ensure that you have 30GB of free disk space
-* Delete the folder
+* Delete the folder containing your virtual machine import (usually /Users/<your username>/VirtualBox VMs/NeuroVM or C:\Users\<your username>\VirtualBox VMs\NeuroVM)
+* Attempt to re-import
 
 ## Reference Material
 
