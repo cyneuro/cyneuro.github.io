@@ -19,6 +19,7 @@
 #### 2. Neuroscience
 
 * Basics
+* [Short-Term Synaptic Plasticity](https://nbviewer.jupyter.org/github/tjbanks/synaptic_plasticity/blob/master/ShortTermSynapticPlasticity.ipynb)
 
 #### 3. NEURON
 
