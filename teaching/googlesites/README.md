@@ -9,7 +9,7 @@ In a world where the Internet has impacted every aspect of life it’s important
 In fact, [(Leung and Ivy)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.581.3422&rep=rep1&type=pdf) found that students perceive course websites to enhance learning. Sites that host content directly related to the student’s final grade were considered most impactful. Presumably as this drives motivation to use and retain information found on the site. 
 Google sites is an easy to use and powerful platform that will allow you to host a wide variety of content (documents, videos, etc.)
 ## Creating the site
-<mark> Start by opening up a browser window and navigating to [https://sites.google.com](https://sites.google.com) You’ll be presented with a window similar to the following. (**You may need to login or create a google account before proceeding**)
+Start by opening up a browser window and navigating to [https://sites.google.com](https://sites.google.com) You’ll be presented with a window similar to the following. (**You may need to login or create a google account before proceeding**)
 
 ![](images/1.png)
 
@@ -19,8 +19,7 @@ Next, click the + icon at the bottom right of the screen. You’ll be given a bl
 
 ![](images/2.png)
 
- 
-</mark>
+
 
 ## Customizing your Google Site
 Start by giving your site a name, something like “Mrs. Johnson’s Classroom Webpage”
