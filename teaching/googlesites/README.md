@@ -2,7 +2,7 @@
 [**Home**](/) > [**Teaching**](/teaching) > [**Google Sites**](./)
 
 ---
-Today we’ll be looking at how to publish lessons and custom content on the web through Google Sites.
+Today we’ll be looking at how to publish lessons and custom content on the web through Google Sites. [[Example](https://sites.google.com/view/neuroret/)]
 
 ## Motivation
 In a world where the Internet has impacted every aspect of life it’s important that students are able to effectively use online resources to access information. By offering an online presence you can augment the student’s learning experience. 
