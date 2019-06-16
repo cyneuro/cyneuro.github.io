@@ -13,6 +13,7 @@ Program support resource page.
 
 * [Introduction](/research/introduction)
 * Content
+* [Google Sites For Lessons](/teaching/googlesites)
 
 **2. RET**
 
