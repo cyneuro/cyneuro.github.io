@@ -129,6 +129,7 @@ You should now see your questions from Google docs. Now, whenever you update the
 ### ```Step 15```
 
 Finally, let’s return to our homepage and give the site a custom URL. Click “Home” at the top left of your page. From the homepage click “Enter site name” and enter a good name for your website.  It will be accessible through https://sites.google.com/view/<yoursitename> 
+
 ![](images/15.png)
 
  
