@@ -150,6 +150,8 @@ Congratulations! You’ve just created your first site! Visit https://sites.goog
 
  ----
 
+### ```Step 18```
+
 Return to the editor and check out some of the other options for your page.
 You can add items like:
 * Calendars
@@ -157,7 +159,7 @@ You can add items like:
 * PowerPoint slides
 * Questionnaire forms
 * Charts
-* and Theme Changes!
+* and even change the theme!
 
 
 ---
