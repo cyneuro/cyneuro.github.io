@@ -4,7 +4,7 @@
 ---
 Today we’ll be looking at how to publish lessons and custom content on the web using Google Sites. 
 
-Check out Cassie O'Connell's video out here:
+Check Cassie O'Connell's video out here:
 
 [![](https://img.youtube.com/vi/6CnyDDdeTYc/0.jpg)](https://www.youtube.com/watch?v=6CnyDDdeTYc)
 
