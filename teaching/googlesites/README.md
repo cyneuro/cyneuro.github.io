@@ -2,7 +2,15 @@
 [**Home**](/) > [**Teaching**](/teaching) > [**Google Sites**](./)
 
 ---
-Today we’ll be looking at how to publish lessons and custom content on the web using Google Sites. [[Example](https://sites.google.com/view/neuroret/)]
+Today we’ll be looking at how to publish lessons and custom content on the web using Google Sites. 
+
+Check out Cassie O'Connell's video out here:
+
+[![](https://img.youtube.com/vi/6CnyDDdeTYc/0.jpg)](https://www.youtube.com/watch?v=6CnyDDdeTYc)
+
+Cassie and Erin Shappell's sample site coming soon! [[]()]
+
+Example used for the following tutorial is located [[here](https://sites.google.com/view/neuroret/)]
 
 ## Motivation
 In a world where the Internet has impacted every aspect of life it’s important that students are able to effectively use online resources to access information. By offering an online presence you can augment the student’s learning experience. 
