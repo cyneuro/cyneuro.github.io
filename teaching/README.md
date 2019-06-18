@@ -15,7 +15,7 @@ Find training content for learning or teaching computational neuroscience here.
 
 * [Introduction](/research/introduction)
 * Teaching Resources
-* [Google Sites For Lessons](/teaching/googlesites)
+* [Google Sites For Lessons](/outreach/googlesites)
 
 #### 2. Python
 * [LearnPython.org](https://www.learnpython.org/)

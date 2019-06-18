@@ -1,5 +1,5 @@
 # Creating an online presence with Google Sites
-[**Home**](/) > [**Teaching**](/teaching) > [**Google Sites**](./)
+[**Home**](/) > [**Outreach**](/outreach) > [**Google Sites**](./)
 
 ---
 Today we’ll be looking at how to publish lessons and custom content on the web using Google Sites. 
