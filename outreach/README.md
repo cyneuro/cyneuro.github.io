@@ -18,7 +18,7 @@ Program support resource page.
 
 * Program Information
 * [Resources for RET Teachers](https://sites.google.com/baypath.edu/ret-intro-at-mizzou/home)
-* [NSF RET Teachers Webpages](/outreach/teacherpages)
+* [NSF RET Teachers Webpages](/outreach/retwebsites)
 * [Google Sites For Lessons](/outreach/googlesites)
 
 **3. NIH BRAIN COURSE**
