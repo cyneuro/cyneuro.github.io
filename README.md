@@ -35,9 +35,13 @@ The contents are based on the following literature:
 
 * Eugene M. Izhikevich, *The Dynamical Systems in Neuroscience: Geometry of Excitability and Bursting*, MIT Press, 2007
 
-## Contributors
+## [Contributors](https://engineering.missouri.edu/cyneuro/cyneuro-about/)
 
 * Satish Nair
+* Prasad Calyam
+* Dong Xu
+* Trupti Joshi
+
 * [Tyler Banks](https://tylerbanks.net)
 * [Ben Latimer](https://github.com/latimerb)
 * Ziao Chen
