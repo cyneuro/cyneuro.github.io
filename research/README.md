@@ -5,6 +5,11 @@
 [**Home**](/) > [**Research**](./)
 
 ---
+
+* [Workflows](https://engineering.missouri.edu/cyneuro/cyneuro-projects/#1552415134193-e62be402-d851)
+* [Datasets](https://engineering.missouri.edu/cyneuro/cyneuro-projects/#1552415134207-0c4baba3-d6fb)
+* [Training Content](https://engineering.missouri.edu/cyneuro/cyneuro-projects/#1552415145725-19eda2b2-d731)
+
 ## Table of Contents
 
 #### 0. Tools
