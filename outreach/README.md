@@ -7,6 +7,9 @@
 ---
 Program support resource page.
 
+* [Events](https://engineering.missouri.edu/cyneuro/cyneuro-events/)
+* [March Symposium](https://missouri.box.com/s/043sfeuil0engjfpplab1r74bxrklt4j)
+
 ## Table of Contents
 
 **1. K-12** 
