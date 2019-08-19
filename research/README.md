@@ -1,5 +1,3 @@
-![](/images/cyneurologo2.png)
-
 # CyNeuro - Research
 
 [**Home**](/) > [**Research**](./)
