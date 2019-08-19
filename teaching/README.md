@@ -1,7 +1,4 @@
-![](/images/cyneurologo2.png)
-
 # CyNeuro - Teaching
-
 
 [**Home**](/) > [**Teaching**](./)
 
