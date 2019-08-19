@@ -1,8 +1,3 @@
-![](/images/cyneurologo2.png)
-
-# CyNeuro - Computational Neuroscience Resources
-
-
 <table style="border-color: white; background-color: white; margin-left: auto; margin-right: auto;" cellspacing="10" cellpadding="20">
 <tbody>
 <tr>
