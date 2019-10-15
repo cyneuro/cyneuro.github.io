@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://localhost:8080/RecommenderSystem/#!/ -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>CyNeuro</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    
+     <!-- w3css core CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css" />
+    
+    <!-- <link th:href="@{/css/font-awesome.min.css}" rel="stylesheet" type="text/css" /> -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css' />
+
+    <!-- Google Open Sans font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+
+ 	
+	<link rel="stylesheet" type="text/css" href="resources/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/agency.css">
+ 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js" type="text/javascript"></script>
+    
+    <script type="text/javascript" src="resources/js/popper.min.js"></script>
+	<script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="resources/js/agency.js"></script>
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+	
+    <script type="text/javascript" src="resources/js/mainApp.js"></script>
+    
+
+
+</head><body ng-app="mainApp" class="ng-scope">
+
+	<header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #222222;" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="http://cyneuro.orgdev/">Neuro API</a>
+              
+            </div>
+        </nav>
+    </header>
+
+
+			<section class="bg-light" >
+				<div class="container">
+
+					<div class="row">
+						<div class="col-12">
+							<a style="color: black; background: transparent; border: none;" class="btn btn-primary btn-lg" href="http://localhost:8080/RecommenderSystem/#" ng-click="openMainPageRecommender();" role="button">
+								<h3 class="section-heading">&nbsp;&nbsp;</h3>
+							</a>
+						</div>
+					</div>
+
+					<div class="row" >
+
+						<div class="col-md-12 step2" ng-controller="step2controller" >
+		<!-- ngView: -->
+		<div class="content ng-scope">
+			<div class="form-group row ">
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">Easy Model</label>
+				</div>
+				<div class="col-md-4">
+
+					<input type="checkbox"  name="easy_model" ng-model="neuro.el" />&nbsp; Easy Model
+				</div>
+				
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">tstop(ms)</label>
+				</div>
+				<div class="col-md-4">
+
+					<input type="number" class="form-control " name="t_stop"  ng-model="neuro.tstop" />
+				</div>
+			</div>
+			
+			<div class="form-group row ">
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">Passive Cell</label>
+				</div>
+				<div class="col-md-4">
+
+					<input type="checkbox"  name="K_n" />&nbsp; Passive
+				</div>
+				
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">Injectionduration</label>
+				</div>
+				<div class="col-md-4">
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.dur"> &nbsp; {{neuro.dur}}
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="form-group row ">
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">E<sub>l</sub> (mV)</label>
+				</div>
+				<div class="col-md-4">
+
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.e1"> &nbsp; {{neuro.e1}}
+					</div>
+				</div>
+				
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">I <sub>inject</sub> (nA)</label>
+				</div>
+				<div class="col-md-4">
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.iinject"> &nbsp; {{neuro.iinject}}
+					</div>
+					
+				</div>
+			</div>
+			
+			
+			<div class="form-group row ">
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">g<sub>leak</sub> (&mu;Slcm<sup>2</sup>)</label>
+				</div>
+				<div class="col-md-4">
+
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.gl"> &nbsp; {{neuro.gl}}
+					</div>
+				</div>
+				
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">Soma diameter (&mu;m)</label>
+				</div>
+				<div class="col-md-4">
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.diam"> &nbsp; {{neuro.diam}}
+					</div>
+					
+				</div>
+			</div>
+			
+			
+			<div class="form-group row ">
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">g<sub>Na</sub> (mSlcm<sup>2</sup>)</label>
+				</div>
+				<div class="col-md-4">
+
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.gna"> &nbsp; {{neuro.gna}}
+					</div>
+				</div>
+				
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">Capacitance Scale</label>
+				</div>
+				<div class="col-md-4">
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.capscale"> &nbsp; {{neuro.capscale}}
+					</div>
+					
+				</div>
+			</div>
+			
+			
+			<div class="form-group row ">
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">g<sub>K</sub> (mSlcm<sup>2</sup>)</label>
+				</div>
+				<div class="col-md-4">
+
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.gk"> &nbsp; {{neuro.gk}}
+					</div>
+				</div>
+				
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">k<sub>m</sub></label>
+				</div>
+				<div class="col-md-4">
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.km"> &nbsp; {{neuro.km}}
+					</div>
+					
+				</div>
+			</div>
+			
+			
+			<div class="form-group row ">
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">g<sub>h</sub> (mSlcm<sup>2</sup>)</label>
+				</div>
+				<div class="col-md-4">
+
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.gh"> &nbsp; {{neuro.gh}}
+					</div>
+				</div>
+				
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">k<sub>h</sub></label>
+				</div>
+				<div class="col-md-4">
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.kh"> &nbsp; {{neuro.kh}}
+					</div>
+					
+				</div>
+			</div>
+			
+			
+			<div class="form-group row ">
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">Vl/2m</label>
+				</div>
+				<div class="col-md-4">
+
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.vl2m"> &nbsp; {{neuro.vl2m}}
+					</div>
+				</div>
+				
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">k<sub>n</sub></label>
+				</div>
+				<div class="col-md-4">
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.kn"> &nbsp; {{neuro.kn}}
+					</div>
+					
+				</div>
+			</div>
+			
+			
+			<div class="form-group row ">
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">Vl/2h</label>
+				</div>
+				<div class="col-md-4">
+
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.vl2h"> &nbsp; {{neuro.vl2h}}
+					</div>
+				</div>
+				
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">multiply_n</label>
+				</div>
+				<div class="col-md-4">
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.multiply_n"> &nbsp; {{neuro.multiply_n}}
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="form-group row ">
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">Vl/2n</label>
+				</div>
+				<div class="col-md-4">
+
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.vl2n"> &nbsp; {{neuro.vl2n}}
+					</div>
+				</div>
+				
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">multiply_m</label>
+				</div>
+				<div class="col-md-4">
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.multiply_m"> &nbsp; {{neuro.multiply_m}}
+					</div>
+					
+				</div>
+			</div>
+			
+			
+			<div class="form-group row ">
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">seg value1</label>
+				</div>
+				<div class="col-md-4">
+
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.seg1"> &nbsp; {{neuro.seg1}}
+					</div>
+				</div>
+				
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">multiply_h</label>
+				</div>
+				<div class="col-md-4">
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.multiply_h"> &nbsp; {{neuro.multiply_h}}
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="form-group row ">
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">seg value3</label>
+				</div>
+				<div class="col-md-4">
+
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.seg3"> &nbsp; {{neuro.seg3}}
+					</div>
+				</div>
+				
+				<div class="col-md-2">
+					<label for="req_os" class=" col-form-label">seg value2</label>
+				</div>
+				<div class="col-md-4">
+					<div class="slidecontainer" >
+					  <input type="range" min="1" max="100" value="50" class="slider" id="myRange" ng-model="neuro.seg2"> &nbsp; {{neuro.seg2}}
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="form-group row ">
+				<div class="col-md-12" style="text-align: center; padding: 10px 0px">
+	
+					<button value="Submit" class="btn btn-primary " ng-click="final()">
+						Submit</button>
+				</div>
+			</div>
+
+			<pre>{{neuro}}</pre>
+			
+			
+		
+
+		</div>
+	
+	</div>
+						
+
+					</div>
+				</div>
+						 
+			</section>
+
+
+
+		</div>
+		<!-- /dashboard content -->
+
+	</div>
+	<!-- /content area -->
+
+	
+
+	<footer>
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="media">
+             <!--  <div class="media-left media-middle">
+                <img class="nsf-logo media-object" src="./CyNeuro_files/nsf_logo.gif">
+              </div> -->
+            <!--   <div class="media-body">
+                <span class="text-muted pull-left align-middle">This project is supported partly by the <a target="_blank" href="https://www.nsf.gov/">National Science Foundation</a> under the award number <a target="_blank" href="https://nsf.gov/awardsearch/showAward?AWD_ID=1730655">OAC-1730655</a></span>
+                <p></p>
+              </div> -->
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+</body></html>
+	

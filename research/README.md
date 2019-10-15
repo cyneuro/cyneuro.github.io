@@ -13,6 +13,7 @@
 #### 0. Tools
 * [NeuroVM](tools/neurovm) - A pre-built virtual machine for neuro research
 * [SimAgent](tools/simagent) - Easily submit NEURON simulations to supercomputers like NSG
+* [Single Cell Simulator](tools/singlecell)
 * [BMTools](https://github.com/tjbanks/bmtools) - A collection of scripts to make developing networks in BMTK easier.
 
 #### 1. Introduction 

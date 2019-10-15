@@ -1,0 +1,156 @@
+.media-object{
+	width: 55px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu > a:hover {
+    background-color: #fed136;
+    background-image: none;
+}
+
+.rec-nav{
+	border:1px solid #eee;
+	background: #fff;
+}
+
+.bg-light{
+	padding: 50px 0 !important;
+}
+
+.hr-line{
+	border: 0;
+    border-top: 3px solid #F1B82D;
+    margin: 5px 0 20px 0;
+}
+.section-heading{
+	margin: 0px;
+}
+
+.rec-nav .nav-item{
+	border-bottom: 1px solid #eee;
+}
+.rec-nav .nav-item:last-child{
+	border-bottom: none;
+}
+.recommender p{
+	text-align: justify;
+}
+
+.recommender-left-menu{
+	padding-right: 0px;
+}
+.recommender-right-menu{
+	background: #fff;
+	border: 1px solid #eee;
+	max-width: 79% !important;
+    flex: 0 0 79% !important;
+	    padding: 10px 20px;
+	    min-height: 450px;
+}
+.fa{
+	    font-size: 18px;
+}
+
+.input-remove{
+	float: left;
+    margin: 12px 10px;
+	
+}
+.recommender-list .col-md-6{
+	margin: 10px 0;
+}
+.recommender .card{
+	border: none;
+    border-radius: 0px;
+}
+.recommender .card-header{
+	 background: rgba(34,34,34,.8);
+    padding: 5px 10px;
+    border-radius: 0px;
+}
+.recommender .card-header .header-recommender{
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+	color: #fff;
+	font-weight: 500;
+	width: 90%;
+    float: left;
+}
+
+
+
+.recommender .card-body{
+	
+	border: 1px solid rgba(4,26,55,.16);
+    padding: 10px;
+    font-size: 14px;	
+    text-align: justify;
+    height: 120px;
+    vertical-align: middle;
+}
+
+.icon-recommender{
+	float: right;
+    width: 10%;
+    color: #fff;
+}
+
+.active a:hover{
+	color: #fff !important;
+}
+
+.modal-content {
+	border-radius: 0px !important;
+}
+
+.form-control {
+	border-radius: 0px !important;
+}
+
+legend{
+	width: auto;
+    padding:0  15px  0 5px;
+}
+
+fieldset{
+	padding: 10px 25px;
+	border: 1px solid #909090;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 90%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.step2 .col-md-2{
+	text-align: right;
+}
